@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="carrousel.css">
+</head>
+<body>
+    <nav class="navbar">
+        <h1 class="name">Ticket Ciné</h1>
+
+<!-- DEBUT MENU BURGER -->
+
+        <div class="menu-container">
+            <!-- Icône du menu burger -->
+            <div class="burger-menu" onclick="toggleMenu()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        
+            <!-- Liste des liens de navigation -->
+            <ul class="nav-menu">
+                <li><a href="carrousel.html">Carrousel</a></li>
+                <li><a href="formulaire.html">Formulaire</a></li>
+                <li><a href="#">
+                        <button>Mode Sombre</button>  <!-- C'est volantaire de le metre ici je veut qu'il soit dans le menu burger -->
+                </a></li>
+            </ul>
+        </div>
+
+<!-- FIN MENU BURGER -->
+
+    </nav>
+    <header></header>
+
+    <nav>
+        <h2>Films en tous Genres</h2>
+    </nav>
+
+<!-- DEBUT CARROUSEL -->
+
+
+    <div id="imageContainer">
+        <div id="imageSlider">
+            <div class="image1">
+                <img class="image" src="conjuringdeux.jpg" alt="Image 1">
+            </div>
+            <div class="image2">
+                <img class="image" src="dune.webp" alt="Image 2">
+            </div>
+            <div class="image3">
+                <img class="image" src="equalizer.webp" alt="Image 3">
+            </div>
+            <div class="image4">
+                <img class="image" src="filmC1.jpg" alt="Image 4">
+            </div>
+            <div class="image5">
+                <img class="image" src="harrypotteretlacoupedefeu.jpg" alt="Image 5">
+            </div>
+            <div class="image6">
+                <img class="image" src="lecrimedelorientexpress.webp" alt="Image 6">
+            </div>
+            <div class="image7">
+                <img class="image" src="riendevouveau.jpg" alt="Image 7">
+            </div>
+            <div class="image8">
+                <img class="image" src="latourmontparnasseinfernale.jpg" alt="Image 8">
+            </div>
+        </div>
+    </div>
+
+
+<!-- FIN CARROUSEL -->
+
+    <footer>
+        <h3>Mentions légales</h3>
+    </footer>
+    <script src="carrousel.js"></script>
+</body>
+</html>
